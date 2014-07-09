@@ -3,17 +3,11 @@
 <div class="jumbotron" style="background-color:white;">
   <h1>Welcome <span ng-show="currentUser">{{ currentUser.name }}</span>!</h1>
   <p class="lead">
-    <img src="images/tv.jpg" height="450px"><br>
+     <video is="video-camera" autoplay="true"></video>
+    <img class="tv" src="images/tv.jpg" height="450px"><br>
     It's time for a video Chat.
   </p>
   <p><a class="btn btn-lg btn-success" ng-href="#">Begin!</a></p>
-</div>
-
-<div class="row marketing">
-  <div ng-repeat="thing in awesomeThings">
-      <h4>{{thing.name}}</h4>
-      <p>{{thing.info}}</p>
-  </div>
 </div>
 
 <div class="footer">

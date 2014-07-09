@@ -4,6 +4,13 @@ body {
   padding-bottom: 20px;
 }
 
+img.tv {
+position: relative;
+right: 45px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -76,4 +83,22 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+  div.jumbotron.ng-scope {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  .jumbotron h1, .jumbotron .h1 {position:relative; top:235px;}
+}
+video {
+border-radius: 15px;
+width: 391px;
+position: relative;
+z-index: 1;
+right: 45px;
+top: 372px;
+}
+
+div.jumbotron.ng-scope {
+margin-top: -290px;
 }
